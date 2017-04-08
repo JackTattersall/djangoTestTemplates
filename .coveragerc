@@ -1,0 +1,8 @@
+[run]
+include =
+    testApp/models.py
+    testApp/views.py
+    testApp/forms.py
+    testApp/fetch_data.py
+    testApp/seralizeres.py
+

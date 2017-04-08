@@ -1,0 +1,6 @@
+-   fields: {text: hello there world hows it going, title: Hello World}
+    model: testApp.testmodel
+    pk: 1
+-   fields: {text: 'Drew? is that you', title: hello spaceman}
+    model: testApp.testmodel
+    pk: 2

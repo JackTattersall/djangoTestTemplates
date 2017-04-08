@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Heya dudes</title>
+</head>
+<body>
+    <h1>Heya dudes</h1>
+    <p>{{ name }}</p>
+    <form action="." method="post">
+        {{ form.as_p }}
+        {% csrf_token %}
+        <input type="submit" value="click">
+    </form>
+    {% if success %}
+        <p>Success</p>
+    {% else %}
+        <p>Fail</p>
+    {% endif %}
+</body>
+</html>
